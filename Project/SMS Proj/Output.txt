@@ -1,0 +1,241 @@
+Simulation	Software Name	JaamSim	-
+Simulation	Software Version	2016-21	-
+Simulation	Configuration File	C:\Users\Rathan Naik\Desktop\Queue Selection Example.cfg	-
+Simulation	RunNumber	1.0	-
+Simulation	RunIndex	{ 1 }	-
+Simulation	Present Time and Date	Nov 15, 2016 09:57	-
+Simulation	Initialization Duration	0.0	h
+Simulation	Run Duration	100.0	h
+Simulation	Present Simulation Time	100.0	h
+
+*** Branch ***
+
+Branch1	StateTimes[None]	100.0	h
+Branch1	NumberAdded	1002.0	-
+Branch1	NumberProcessed	1002.0	-
+
+*** EntityConveyor ***
+
+EntityConveyor1	StateTimes[Breakdown]	0.0	h
+EntityConveyor1	StateTimes[Idle]	99.72166666666666	h
+EntityConveyor1	StateTimes[Maintenance]	0.0	h
+EntityConveyor1	StateTimes[Stopped]	0.0	h
+EntityConveyor1	StateTimes[Working]	0.2783333333333333	h
+EntityConveyor1	Utilisation	0.0027833333333333334	-
+EntityConveyor1	Commitment	0.00278333333333336	-
+EntityConveyor1	Availability	1.0	-
+EntityConveyor1	Reliability	1.0	-
+EntityConveyor1	NumberAdded	1002.0	-
+EntityConveyor1	NumberProcessed	1002.0	-
+
+EntityConveyor5	StateTimes[Breakdown]	0.0	h
+EntityConveyor5	StateTimes[Idle]	99.98438888888889	h
+EntityConveyor5	StateTimes[Maintenance]	0.0	h
+EntityConveyor5	StateTimes[Stopped]	0.0	h
+EntityConveyor5	StateTimes[Working]	0.01561111111111111	h
+EntityConveyor5	Utilisation	1.561111111111111E-4	-
+EntityConveyor5	Commitment	1.5611111111113463E-4	-
+EntityConveyor5	Availability	1.0	-
+EntityConveyor5	Reliability	1.0	-
+EntityConveyor5	NumberAdded	562.0	-
+EntityConveyor5	NumberProcessed	562.0	-
+
+EntityConveyor6	StateTimes[Breakdown]	0.0	h
+EntityConveyor6	StateTimes[Idle]	99.87861111111111	h
+EntityConveyor6	StateTimes[Maintenance]	0.0	h
+EntityConveyor6	StateTimes[Stopped]	0.0	h
+EntityConveyor6	StateTimes[Working]	0.1213888888888889	h
+EntityConveyor6	Utilisation	0.001213888888888889	-
+EntityConveyor6	Commitment	0.0012138888888888477	-
+EntityConveyor6	Availability	1.0	-
+EntityConveyor6	Reliability	1.0	-
+EntityConveyor6	NumberAdded	437.0	-
+EntityConveyor6	NumberProcessed	437.0	-
+
+EntityConveyor7	StateTimes[Breakdown]	0.0	h
+EntityConveyor7	StateTimes[Idle]	99.74361111111111	h
+EntityConveyor7	StateTimes[Maintenance]	0.0	h
+EntityConveyor7	StateTimes[Stopped]	0.0	h
+EntityConveyor7	StateTimes[Working]	0.2563888888888889	h
+EntityConveyor7	Utilisation	0.002563888888888889	-
+EntityConveyor7	Commitment	0.002563888888888921	-
+EntityConveyor7	Availability	1.0	-
+EntityConveyor7	Reliability	1.0	-
+EntityConveyor7	NumberAdded	923.0	-
+EntityConveyor7	NumberProcessed	923.0	-
+
+*** EntityGenerator ***
+
+EntityGenerator1	StateTimes[Breakdown]	0.0	h
+EntityGenerator1	StateTimes[Idle]	0.0	h
+EntityGenerator1	StateTimes[Maintenance]	0.0	h
+EntityGenerator1	StateTimes[Stopped]	0.0	h
+EntityGenerator1	StateTimes[Working]	100.0	h
+EntityGenerator1	Utilisation	1.0	-
+EntityGenerator1	Commitment	1.0	-
+EntityGenerator1	Availability	1.0	-
+EntityGenerator1	Reliability	1.0	-
+EntityGenerator1	NumberAdded	1002.0	-
+EntityGenerator1	NumberProcessed	1002.0	-
+
+*** EntitySink ***
+
+EntitySink1	StateTimes[None]	100.0	h
+EntitySink1	NumberAdded	923.0	-
+EntitySink1	NumberProcessed	923.0	-
+
+*** Queue ***
+
+Queue1	StateTimes[None]	100.0	h
+Queue1	NumberAdded	564.0	-
+Queue1	NumberProcessed	563.0	-
+Queue1	QueueLengthAverage	0.7140380635416671	-
+Queue1	QueueLengthStandardDeviation	0.4518713393824987	-
+Queue1	QueueLengthMinimum	0.0	-
+Queue1	QueueLengthMaximum	1.0	-
+Queue1	QueueLengthTimes[0]	28.596193645833285	h
+Queue1	QueueLengthTimes[1]	71.40380635416672	h
+Queue1	AverageQueueTime	0.1266024935357566	h
+Queue1	NumberReneged	0.0	-
+
+Queue2	StateTimes[None]	100.0	h
+Queue2	NumberAdded	438.0	-
+Queue2	NumberProcessed	438.0	-
+Queue2	QueueLengthAverage	0.04471972786388919	-
+Queue2	QueueLengthStandardDeviation	0.20668786564205668	-
+Queue2	QueueLengthMinimum	0.0	-
+Queue2	QueueLengthMaximum	1.0	-
+Queue2	QueueLengthTimes[0]	95.52802721361107	h
+Queue2	QueueLengthTimes[1]	4.4719727863889185	h
+Queue2	AverageQueueTime	0.010209983530568307	h
+Queue2	NumberReneged	0.0	-
+
+Queue3	StateTimes[None]	100.0	h
+Queue3	NumberAdded	999.0	-
+Queue3	NumberProcessed	924.0	-
+Queue3	QueueLengthAverage	38.98280799671114	-
+Queue3	QueueLengthStandardDeviation	22.592435250914562	-
+Queue3	QueueLengthMinimum	0.0	-
+Queue3	QueueLengthMaximum	76.0	-
+Queue3	QueueLengthTimes[0]	0.9193002086111112	h
+Queue3	QueueLengthTimes[1]	1.1645927402777774	h
+Queue3	QueueLengthTimes[2]	1.3964496569444433	h
+Queue3	QueueLengthTimes[3]	1.4737218027777808	h
+Queue3	QueueLengthTimes[4]	1.340398244722219	h
+Queue3	QueueLengthTimes[5]	1.109692943055556	h
+Queue3	QueueLengthTimes[6]	1.0586890155555557	h
+Queue3	QueueLengthTimes[7]	0.91197448861111	h
+Queue3	QueueLengthTimes[8]	1.8514626258333364	h
+Queue3	QueueLengthTimes[9]	0.7868731594444398	h
+Queue3	QueueLengthTimes[10]	1.0649348250000044	h
+Queue3	QueueLengthTimes[11]	2.297496789722219	h
+Queue3	QueueLengthTimes[12]	1.7024867425000068	h
+Queue3	QueueLengthTimes[13]	0.5927344666666633	h
+Queue3	QueueLengthTimes[14]	0.4663394247222196	h
+Queue3	QueueLengthTimes[15]	1.2457244752777883	h
+Queue3	QueueLengthTimes[16]	1.3339445591666703	h
+Queue3	QueueLengthTimes[17]	1.2119010166666502	h
+Queue3	QueueLengthTimes[18]	0.9086271544444511	h
+Queue3	QueueLengthTimes[19]	0.8361172622222107	h
+Queue3	QueueLengthTimes[20]	2.2760876677777926	h
+Queue3	QueueLengthTimes[21]	2.8664435905555488	h
+Queue3	QueueLengthTimes[22]	1.5391422872222231	h
+Queue3	QueueLengthTimes[23]	0.7777488527777758	h
+Queue3	QueueLengthTimes[24]	0.9111047394444459	h
+Queue3	QueueLengthTimes[25]	0.81636915722222	h
+Queue3	QueueLengthTimes[26]	1.0158777444444462	h
+Queue3	QueueLengthTimes[27]	1.133055904722217	h
+Queue3	QueueLengthTimes[28]	0.822782586111114	h
+Queue3	QueueLengthTimes[29]	0.7275605458333464	h
+Queue3	QueueLengthTimes[30]	0.6575077061110924	h
+Queue3	QueueLengthTimes[31]	2.6916239341667016	h
+Queue3	QueueLengthTimes[32]	4.247524187499964	h
+Queue3	QueueLengthTimes[33]	1.698526147777787	h
+Queue3	QueueLengthTimes[34]	0.8700701022222105	h
+Queue3	QueueLengthTimes[35]	0.3442647480555671	h
+Queue3	QueueLengthTimes[36]	0.3002386094444389	h
+Queue3	QueueLengthTimes[37]	1.19760125250001	h
+Queue3	QueueLengthTimes[38]	1.3429501149999932	h
+Queue3	QueueLengthTimes[39]	1.0194565669444597	h
+Queue3	QueueLengthTimes[40]	1.400433968888869	h
+Queue3	QueueLengthTimes[41]	0.873362183888894	h
+Queue3	QueueLengthTimes[42]	1.3267365794444372	h
+Queue3	QueueLengthTimes[43]	0.9337173975000123	h
+Queue3	QueueLengthTimes[44]	0.3606810652777656	h
+Queue3	QueueLengthTimes[45]	1.1189891013889024	h
+Queue3	QueueLengthTimes[46]	1.344391116111106	h
+Queue3	QueueLengthTimes[47]	0.7322338036111048	h
+Queue3	QueueLengthTimes[48]	1.680950813333313	h
+Queue3	QueueLengthTimes[49]	3.156548408888937	h
+Queue3	QueueLengthTimes[50]	2.4110803286110603	h
+Queue3	QueueLengthTimes[51]	1.0901132711111292	h
+Queue3	QueueLengthTimes[52]	0.5156014125000284	h
+Queue3	QueueLengthTimes[53]	0.9104491922222062	h
+Queue3	QueueLengthTimes[54]	1.4377283633333475	h
+Queue3	QueueLengthTimes[55]	0.6342454327777685	h
+Queue3	QueueLengthTimes[56]	0.7371225761110852	h
+Queue3	QueueLengthTimes[57]	0.7091447763889138	h
+Queue3	QueueLengthTimes[58]	1.7732542916666394	h
+Queue3	QueueLengthTimes[59]	1.3463050552778117	h
+Queue3	QueueLengthTimes[60]	1.7861984424999942	h
+Queue3	QueueLengthTimes[61]	1.4230701813888866	h
+Queue3	QueueLengthTimes[62]	0.8745472402777523	h
+Queue3	QueueLengthTimes[63]	1.4350565633333463	h
+Queue3	QueueLengthTimes[64]	1.1514877519444822	h
+Queue3	QueueLengthTimes[65]	0.8245517747221877	h
+Queue3	QueueLengthTimes[66]	0.8172374516667009	h
+Queue3	QueueLengthTimes[67]	1.4152044099999896	h
+Queue3	QueueLengthTimes[68]	1.6686704413888704	h
+Queue3	QueueLengthTimes[69]	1.1810901086110972	h
+Queue3	QueueLengthTimes[70]	0.7110030841666837	h
+Queue3	QueueLengthTimes[71]	1.0428897205555403	h
+Queue3	QueueLengthTimes[72]	2.261160699999972	h
+Queue3	QueueLengthTimes[73]	4.430155143888858	h
+Queue3	QueueLengthTimes[74]	2.5222750122222997	h
+Queue3	QueueLengthTimes[75]	0.7055905491666635	h
+Queue3	QueueLengthTimes[76]	0.32732423777777714	h
+Queue3	AverageQueueTime	3.902182982653768	h
+Queue3	NumberReneged	0.0	-
+
+*** Server ***
+
+Server1	StateTimes[Breakdown]	0.0	h
+Server1	StateTimes[Idle]	2.777777777777778E-4	h
+Server1	StateTimes[Maintenance]	0.0	h
+Server1	StateTimes[Stopped]	0.0	h
+Server1	StateTimes[Working]	99.99972222222222	h
+Server1	Utilisation	0.9999972222222222	-
+Server1	Commitment	0.9999972222222222	-
+Server1	Availability	1.0	-
+Server1	Reliability	1.0	-
+Server1	NumberAdded	563.0	-
+Server1	NumberProcessed	562.0	-
+
+Server2	StateTimes[Breakdown]	0.0	h
+Server2	StateTimes[Idle]	25.09506590694444	h
+Server2	StateTimes[Maintenance]	0.0	h
+Server2	StateTimes[Stopped]	0.0	h
+Server2	StateTimes[Working]	74.90493409305556	h
+Server2	Utilisation	0.7490493409305555	-
+Server2	Commitment	0.7490493409305556	-
+Server2	Availability	1.0	-
+Server2	Reliability	1.0	-
+Server2	NumberAdded	438.0	-
+Server2	NumberProcessed	437.0	-
+
+Server3	StateTimes[Breakdown]	0.0	h
+Server3	StateTimes[Idle]	0.28009014222222217	h
+Server3	StateTimes[Maintenance]	0.0	h
+Server3	StateTimes[Stopped]	0.0	h
+Server3	StateTimes[Working]	99.71990985777778	h
+Server3	Utilisation	0.9971990985777777	-
+Server3	Commitment	0.9971990985777778	-
+Server3	Availability	1.0	-
+Server3	Reliability	1.0	-
+Server3	NumberAdded	924.0	-
+Server3	NumberProcessed	923.0	-
+
+*** SimEntity ***
+
+SimEntity1	StateTimes[None]	100.0	h
+

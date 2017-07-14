@@ -1,0 +1,4 @@
+Utilization of clerk a:	82.93%
+Utilization of clerk b:	82.87%
+Utilization of cashier:	98.69%
+Average Service Time:	16.03
